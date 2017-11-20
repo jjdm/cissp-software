@@ -10,6 +10,10 @@
 		<servlet-class>io.jjdm.cissp.ViewServlet</servlet-class>
 	</servlet>
 	<servlet>
+		<servlet-name>NewServlet</servlet-name>
+		<servlet-class>io.jjdm.cissp.NewServlet</servlet-class>
+	</servlet>
+	<servlet>
 		<servlet-name>AddServlet</servlet-name>
 		<servlet-class>io.jjdm.cissp.AddServlet</servlet-class>
 	</servlet>
@@ -36,6 +40,10 @@
 	<servlet-mapping>
 		<servlet-name>ViewServlet</servlet-name>
 		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>NewServlet</servlet-name>
+		<url-pattern>/new</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>AddServlet</servlet-name>
