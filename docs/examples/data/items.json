@@ -1,0 +1,10 @@
+{
+	"items": [
+		{ "id": 1, "name": "Network Event", "description": "Bandwidth anomoly detected.  Potential DDOS." },
+		{
+			"id": 2,
+			"name": "Sensor Alert",
+			"description": "SNORT sensor flagged known IP."
+		}
+	]
+}

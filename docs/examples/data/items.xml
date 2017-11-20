@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item>
+		<id>1</id>
+		<name>Network Event</name>
+		<description>Bandwidth anomoly detected.  Potential DDOS.</description>
+	</item>
+	<item>
+		<id>2</id>
+		<name>Sensor Alert</name>
+		<description>SNORT sensor flagged known IP.</description>
+	</item>
+</items>
