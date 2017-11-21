@@ -10,7 +10,9 @@
 		<h1>List of Items</h1>
 		<c:forEach items="${requestScope.items}" var="item">
 			<p>
-				<a href="./view?id=${item.id}">${item}</a>
+				<a href="./view?id=${item.id}">
+					${item}
+				</a>
 			</p>
 		</c:forEach>
 		<a href="./new">Add Entry</a>
