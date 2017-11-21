@@ -1,0 +1,34 @@
+# refresh baseline
+sudo apt update
+sudo apt upgrade
+
+# install java
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update
+sudo apt install oracle-java8-installer
+
+# install maven
+sudo apt install maven
+
+# install git
+(already installed)
+
+# install python3
+(already installed)
+vi .bashrc
+alias python=python3
+:qw
+source .bashrc
+
+# configure git
+mkdir git
+cd git
+git init
+git clone https://github.com/jjdm/cissp-software.git
+cd cissp-software
+mvn test
+mvn jetty:run
+
+http://34.239.7.109:8080/
+
+TODO: Finish up page about RegEx, Python, and Bash
