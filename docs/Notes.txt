@@ -31,4 +31,7 @@ mvn jetty:run
 
 http://34.239.7.109:8080/
 
-TODO: Finish up page about RegEx, Python, and Bash
+TODO
+Finish up page about RegEx, Python, and Bash
+Add reminders about text editors, build tools
+Add notes about continous integration (jenkins, bamboo)
