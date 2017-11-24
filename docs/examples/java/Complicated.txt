@@ -1,0 +1,3 @@
+javac -cp '.;c:\Programs\SomePath\*;c:\Programs\AnotherPath\*;c:\Programs\SomePath\aLibraryJar.java' io\jjdm\*.java
+
+javac -cp '.;c:\Programs\SomePath\*;c:\Programs\AnotherPath\*;c:\Programs\AThirdPath\aLibraryJar.java' com\jjdm\*.java
