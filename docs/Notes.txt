@@ -3,9 +3,7 @@ sudo apt update
 sudo apt upgrade
 
 # install java
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt update
-sudo apt install oracle-java8-installer
+sudo apt install default-jdk
 
 # install maven
 sudo apt install maven
@@ -26,6 +24,8 @@ cd git
 git init
 git clone https://github.com/jjdm/cissp-software.git
 cd cissp-software
+git config credential.helper store
+git pull
 mvn test
 mvn jetty:run
 
@@ -35,3 +35,4 @@ TODO
 Finish up page about RegEx, Python, and Bash
 Add reminders about text editors, build tools
 Add notes about continous integration (jenkins, bamboo)
+Examples of Java compilation
