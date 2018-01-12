@@ -17,8 +17,8 @@ return i;
  */
  
 stmt = conn.prepareStatement( "INSERT INTO items VALUES(?, ?)" );
-stmt.setInt( 1, item.getName() );
-stmt.setInt( 2, item.getDescription() );
+stmt.setString( 1, item.getName() );
+stmt.setString( 2, item.getDescription() );
 stmt.executeUpdate();
 stmt.close();
 

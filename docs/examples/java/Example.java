@@ -10,7 +10,7 @@ public class Example {
 		log("Program started.");
 			
 		log("Basic Numbering Example:");
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < 11; i++) {
 			log("  The number is: " + i);
 		}
 		

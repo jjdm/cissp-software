@@ -8,7 +8,7 @@ app.controller('ListController', function ($scope, $log) {
 
 	$scope.items = [
 		{id: 1, name: "Network Event", description: "Bandwidth anomoly detected.  Potential DDOS."},
-		{id: 2, name: "Sensor Alert", description: "SNORT sensor flagged known IP."}
+		{id: 2, name: "Sensor Alert 2", description: "SNORT sensor flagged known IP."}
 	]
 
 	$scope.addItem = function () {

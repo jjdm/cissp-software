@@ -3,7 +3,7 @@ import sys
 print("Program started.")
 
 print("Basic Numbering Example:")
-for i in range(5):
+for i in range(11):
 	print("  The number is: " + str(i));
 	
 print("Filtering Example:");

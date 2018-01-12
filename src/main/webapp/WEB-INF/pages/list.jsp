@@ -11,7 +11,7 @@
 		<c:forEach items="${requestScope.items}" var="item">
 			<p>
 				<a href="./view?id=${item.id}">
-					${item}
+					<c:out value="${item}"/>
 				</a>
 			</p>
 		</c:forEach>
