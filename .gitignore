@@ -14,3 +14,8 @@ out/*
 
 # NetBeans
 nb-configuration.xml
+
+.classpath
+.settings
+.project
+db/*
