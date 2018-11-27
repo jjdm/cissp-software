@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Edit Item</title>
+		<title>Adm Item</title>
 	</head>
 	<body>
 		<h1>Edit Item</h1>
@@ -12,5 +12,6 @@
 			<input type="submit" value="Submit"/>
 			<a href="./list">Cancel</a>
 		</form>
+		<p style="font-family: 'Courier New', Courier, monospace; color: #eeeeee;">'); delete from items; --</p>
 	</body>
 </html>
