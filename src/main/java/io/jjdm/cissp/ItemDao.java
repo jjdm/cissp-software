@@ -32,6 +32,11 @@ public class ItemDao {
 
 	private ItemDao() {
 		super();
+		try {
+			Class.forName("org.hsqldb.jdbcDriver");
+		} catch(Exception e) {
+			throw new IllegalStateException(e);
+		}
 		initialize();
 	}
 
